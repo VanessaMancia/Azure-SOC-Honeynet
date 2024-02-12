@@ -27,8 +27,17 @@ In this project, I create a live honeynet to lure attackers into our environment
 <img src="https://github.com/VanessaMancia/Azure-SOC-Honeynet/assets/112146207/e5c4589e-3f05-4171-b20e-be21a58e94bb.png">
 
 
+Before hardening Measures and Security Controls:
+* In this stage our Linux and Windows machine's NSG's were left wide open 
+
+
+
+---
+
 
 ## Architecture After Hardening / Security Controls
 
 <img src="https://github.com/VanessaMancia/Azure-SOC-Honeynet/assets/112146207/e7cb31c1-15e1-4ebd-a9e7-b26a7d8f5998.png">
+
+
 
