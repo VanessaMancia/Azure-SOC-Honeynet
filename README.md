@@ -14,6 +14,7 @@ In this project, I create a live honeynet to lure attackers into our environment
 * Microsoft Sentinel for Security Information and Event Management (SIEM)
 * Microsoft Defender for cloud to protect cloud resources
 * Windows Remote Desktop for Remote Access
+* Secure Shell for Remote Access 
 * Command line Interface (CLI) for System Management
 * [NIST SP 800-53 Revision 5 For Security Controls](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home)
 * [NIST SP 800-61 Revision 2 for Incident Handling Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
