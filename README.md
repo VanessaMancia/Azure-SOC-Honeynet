@@ -22,22 +22,20 @@ In this project, I create a live honeynet to lure attackers into our environment
 * [NIST SP 800-53 Revision 5 For Security Controls](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home)
 * [NIST SP 800-61 Revision 2 for Incident Handling Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
 
-## Architecture Before Hardening / Security Controls 
+## Architecture Before Hardening and Implementing Security Controls 
 
 <img src="https://github.com/VanessaMancia/Azure-SOC-Honeynet/assets/112146207/e5c4589e-3f05-4171-b20e-be21a58e94bb.png">
 
-
-Before hardening Measures and Security Controls:
-* In this stage our Linux and Windows machine's NSG's were left wide open 
-
-
+Before Hardening Measures and Security Controls:
+* In the "BEFORE" stage, all resources were initially deployed with public exposure to the internet as a way to lure attackers. The Linux and Windows machine, which hosted an SQL database both had their Network Security Groups (NSGs) and built-in firewalls wide open, allowing unrestricted access from any source. The storage account and the key vault were deployed with public endpoints visible to the internet. In this stage, the unsecured environment was monitored by Sentinel using logs aggregated by the Log Analytics Workspace. 
 
 ---
 
 
-## Architecture After Hardening / Security Controls
+## Architecture After Hardening and implementing Security Controls
 
 <img src="https://github.com/VanessaMancia/Azure-SOC-Honeynet/assets/112146207/e7cb31c1-15e1-4ebd-a9e7-b26a7d8f5998.png">
 
-
+After Hardening Measures and Security Controls: 
+* In the "AFTER" stage of this project 
 
