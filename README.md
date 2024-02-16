@@ -35,7 +35,9 @@ In the "BEFORE" stage, all resources were initially deployed with public exposur
 
 <img src="https://github.com/VanessaMancia/Azure-SOC-Honeynet/assets/112146207/e7cb31c1-15e1-4ebd-a9e7-b26a7d8f5998.png">
  
-In the "AFTER" stage the main goal was hardening and implementing security controls to improve the environment's overall security posture. These are the main security controls put in place to harden our environment: 
+In the "AFTER" stage the main goal was hardening and implementing security controls to satisfy NIST SP 800-53 Rev4 SC-7(3) to improve the environment's overall security posture. The hardening tactics included: 
 
-* Network Security Groups (NSGs):
+* Network Security Groups (NSGs):I hardened the NSGs by blocking all inbound and outbound traffic, with the exeption being my own public IP address. This ensured that only authorized traffic was coming into the virtual machine.
+* Built-in Firewalls:
+* Private Endpoints: To enhance the security of Azure Key Vault and storage containers, public endpoints were replaced with private endpoints. This ensured that 
 
