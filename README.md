@@ -37,7 +37,7 @@ In the "BEFORE" stage, all resources were initially deployed with public exposur
  
 In the "AFTER" stage the main goal was hardening and implementing security controls to satisfy NIST SP 800-53 Rev4 SC-7(3) to improve the environment's overall security posture. The hardening tactics included: 
 
-* Network Security Groups (NSGs):I hardened the NSGs by blocking all inbound and outbound traffic, with the exeption being my own public IP address. This ensured that only authorized traffic was coming into the virtual machine.
+* Network Security Groups (NSGs): I hardened the NSGs by blocking all inbound and outbound traffic, with the exeption being my own public IP address. This ensured that only authorized traffic was coming into the virtual machine.
 * Private Endpoints: To enhance the security of Azure Key Vault and storage containers, public endpoints were replaced with private endpoints. This ensured that both the Azure key Vault and the storage could be accessed privately within the virtual network and subnet only.
 
 * 
