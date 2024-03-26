@@ -63,6 +63,12 @@ In the "AFTER" stage the main goal was hardening and implementing security contr
 * ### This map shows how threat actors attempt to exploit the Microsoft SQL Database Server within the Windows virtual machine
 ![Screenshot (4)](https://github.com/VanessaMancia/Azure-SOC-Honeynet/assets/112146207/36aeee0d-12af-4038-bed9-8aa153f855dc)
 
+## Attack Maps After Hardening and Security Controls  
+
+```All map queries returned no results due to no instances of malicious activity for the 24-hour period after hardening.```
+
+---
+
 
 
 
