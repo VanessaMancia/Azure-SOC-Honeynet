@@ -69,6 +69,8 @@ In the "AFTER" stage the main goal was hardening and implementing security contr
 
 ---
 
+## Metrics Before Hardening / Security Controls
 
+The following table shows the metrics we measured in our insecure environment for 24 hours: Start Time 2023-05-02 17:02:00 PM Stop Time 2023-05-03 17:02:00 PM
 
 
