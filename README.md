@@ -73,4 +73,15 @@ In the "AFTER" stage the main goal was hardening and implementing security contr
 
 The following table shows the metrics we measured in our insecure environment for 24 hours: Start Time 2024-02-10 12:58 AM Stop Time 2024-02-11 12:58 AM
 
+| Metric                   | Count
+| ------------------------ | -----
+| SecurityEvent            | 61,472
+| Syslog                   | 2,708
+| SecurityAlert            | 36
+| SecurityIncident         | 377
+| AzureNetworkAnalytics_CL | 2,653
 
+---
+
+## Metrics After Hardening / Security Controls
+The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls: Start Time 2024-02-12 10:46 PM Stop Time 2024-02-13 10:46 PM
