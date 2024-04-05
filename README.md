@@ -85,3 +85,11 @@ The following table shows the metrics we measured in our insecure environment fo
 
 ## Metrics After Hardening / Security Controls
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls: Start Time 2024-02-12 10:46 PM Stop Time 2024-02-13 10:46 PM
+
+| Metric                   | Count
+| ------------------------ | -----
+| SecurityEvent            | 11,340
+| Syslog                   | 1
+| SecurityAlert            | 0
+| SecurityIncident         | 0
+| AzureNetworkAnalytics_CL | 0
